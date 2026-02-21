@@ -5,7 +5,7 @@
 # 2. Loại bỏ cấu hình riêng của Editor/IDE (Quan trọng)
 **/.settings/
 **/.vscode/
-**/.clangd/
+**/.clangd
 **/.metadata/
 
 # 3. Loại bỏ các file log và file tạm của công cụ STM32
