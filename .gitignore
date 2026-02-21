@@ -1,0 +1,22 @@
+# 1. Loại bỏ các thư mục build của CMake/IDE ở mọi cấp độ
+**/build/
+**/cmake/
+
+# 2. Loại bỏ cấu hình riêng của Editor/IDE (Quan trọng)
+**/.settings/
+**/.vscode/
+**/.clangd/
+**/.metadata/
+
+# 3. Loại bỏ các file log và file tạm của công cụ STM32
+**/.mxproject
+**/mx.scratch
+**/*.tmp
+**/*.log
+
+# 4. Loại bỏ các file thực thi (Binary) nếu có
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
